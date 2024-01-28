@@ -1,0 +1,101 @@
+body {
+background-color: #e9f0f4;
+display: flex;
+justify-content: center;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #d3dfe1;
+    background-color: #f4f6f7;
+    /* padding: 20px; */
+    border-radius: 15px;
+}
+
+.description {
+    text-align: center;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 50%;
+    background-color: #d3dfe1;
+    border: 5px solid #dce5e6;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 28px;
+    margin: 25px 0 12px;
+}
+
+.tag {
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.3;
+    margin: 12px 0;
+}
+
+.location {
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.3;
+    margin: 12px 0;
+}
+
+/* .stats li{
+
+    display: flex;
+    flex-direction: column;
+   width: 100px;
+    align-items: center;
+    background-color: #d1dbec;
+    border: 1px solid #9ed2d9;
+} */
+
+.stats {
+    width: 300px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+justify-content: center;
+
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #c6cfd9;
+    align-items: center;
+width: calc(100% / 3);
+background-color: #cddfea;
+
+}
+
+.item:hover{
+cursor: pointer;
+ box-shadow: inset 1px 1px 8px 1px rgb(193, 196, 198);
+}
+
+.label {
+    font-size: 18px;
+   font-weight: 400;
+    color: rgb(146, 166, 168);
+    margin-bottom: 5px;
+    margin-top: 15px;
+
+}
+
+.quantity {
+
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 20px;
+}
